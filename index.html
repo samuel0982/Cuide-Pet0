@@ -1,66 +1,149 @@
-<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Como cuidar do seu pet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cuide Bem do Seu Pet</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f8f8f8;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0 15px;
       color: #333;
-      margin: 0;
-      padding: 0;
     }
-    header {
-      background-color: #ffcc70;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-    }
-    main {
-      padding: 20px;
-      max-width: 800px;
+
+    .container {
+      max-width: 700px;
       margin: auto;
+      padding: 20px 0;
     }
-    section {
+
+    header {
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #2a9d8f;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    img.capa {
+      width: 100%;
+      border-radius: 12px;
       margin-bottom: 20px;
     }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #264653;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #2a9d8f;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #21867a;
+    }
+
     footer {
-      background-color: #eee;
       text-align: center;
-      padding: 10px;
-      font-size: 0.9em;
-      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 40px 0 20px;
+    }
+
+    /* Botão de pagamento com cor diferente */
+    .button-pay {
+      background: #e76f51;
+    }
+
+    .button-pay:hover {
+      background: #c5563a;
     }
   </style>
 </head>
 <body>
+
+<div class="container">
   <header>
-    <h1>Como cuidar do seu pet</h1>
+    <h1>Cuide Bem do Seu Pet</h1>
+    <p>Guia simples e rápido para manter seu pet feliz, saudável e cheio de energia.</p>
+    <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=800&q=80" alt="Cachorro feliz" class="capa">
   </header>
-  <main>
-    <section>
-      <h2>1. Alimentação</h2>
-      <p>Ofereça uma alimentação balanceada e adequada para a espécie e idade do seu pet. Consulte sempre um veterinário para orientações.</p>
-    </section>
-    <section>
-      <h2>2. Higiene</h2>
-      <p>Mantenha o ambiente limpo, escove os pelos com frequência e dê banho no seu pet conforme a necessidade.</p>
-    </section>
-    <section>
-      <h2>3. Saúde</h2>
-      <p>Leve seu pet regularmente ao veterinário. Mantenha as vacinas e vermifugação em dia.</p>
-    </section>
-    <section>
-      <h2>4. Carinho e Atenção</h2>
-      <p>Brinque com seu pet, ofereça amor e crie um ambiente seguro e acolhedor.</p>
-    </section>
-  </main>
+
+  <section>
+    <h2>Por que cuidar bem do seu pet?</h2>
+    <p>Seu pet é parte da sua família. Ele sente, ama e precisa de atenção. Com cuidados simples, você evita doenças, aumenta a qualidade de vida dele e fortalece o vínculo entre vocês.</p>
+  </section>
+
+  <section>
+    <h2>Dicas básicas para todos os tipos de pet</h2>
+    <ul>
+      <li><strong>Alimentação saudável:</strong> Use ração de qualidade específica para a idade do pet.</li>
+      <li><strong>Água fresca sempre:</strong> Troque 2x ao dia e mantenha potes limpos.</li>
+      <li><strong>Exercícios e brincadeiras:</strong> <a href="https://www.petlove.com.br/brinquedos" target="_blank" rel="noopener noreferrer">Veja brinquedos ideais</a>.</li>
+      <li><strong>Vacinas em dia:</strong> Consulte o <a href="https://www.crmv.org.br" target="_blank" rel="noopener noreferrer">CRMV</a> para informações atualizadas.</li>
+      <li><strong>Banho e higiene:</strong> Produtos específicos para o tipo de animal.</li>
+      <li><strong>Amor e atenção:</strong> O mais importante de tudo!</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Cuidados especiais</h2>
+    <ul>
+      <li><strong>Cães pequenos:</strong> Dentes, pelos e pulgas são foco.</li>
+      <li><strong>Gatos:</strong> Areia limpa, brinquedos e tranquilidade.</li>
+      <li><strong>Aves:</strong> Gaiola limpa, boa alimentação e interação.</li>
+      <li><strong>Roedores:</strong> Nada de correntes de ar, muito carinho e objetos para roer.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fale com a gente</h2>
+    <p>Siga no Instagram: <a href="https://instagram.com/cuidepetoficial" target="_blank" rel="noopener noreferrer">@cuidepetoficial</a></p>
+    <p>Clique para falar no WhatsApp:</p>
+    <a href="https://wa.me/5599999999999" class="button" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+
+    <p>Faça seu pagamento clicando aqui:</p>
+    <a href="https://pay.kiwify.com.br/fL2L702" class="button button-pay" target="_blank" rel="noopener noreferrer">Pagar Agora</a>
+
+    <p>Ou envie um e-mail: <a href="mailto:cuidepet@email.com">cuidepet@email.com</a></p>
+  </section>
+
   <footer>
-    <p>Site criado por você — publicado com GitHub Pages</p>
+    <p>© 2025 Cuide Bem do Seu Pet</p>
   </footer>
+</div>
+
 </body>
 </html>
